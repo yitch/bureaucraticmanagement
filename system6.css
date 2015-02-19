@@ -1,0 +1,110 @@
+body {
+  margin: 10% 0 10% 0;
+}
+#passages{
+  margin: 0;
+  padding: 10;
+  border: 0;
+}
+.passage, #sidebar * {
+  font-family: Geneva, "Helvetica Neue", Helvetica, sans-serif;
+  color:#000;
+  text-align:left;
+}
+.passage {
+  border-radius: 0.2em;
+  width: 60%;
+  margin: auto;
+  padding: 2em;
+  font-size:1.5rem;
+  background-color:#fff;
+  border: solid #000 0.05em;
+  box-shadow: #000 0.5em 0.5em 0;
+}
+a.internalLink, a.externalLink {
+  border: solid #000 0.05em;
+  white-space: nowrap;
+  padding: 0.1em 0.2em 0.1em 0.2em;
+  border-radius: 0.5em;
+  color:#000;
+}
+a.internalLink:hover, a.externalLink:hover {
+  text-decoration: none;
+  box-shadow: #000 0 0 0 0.1em;
+  color:#000;
+}
+a.internalLink:active, a.externalLink:active {
+  color: #fff;
+  background-color:#000;
+}
+
+/*Inserted Button */
+button{
+  border: solid #000 0.05em;
+  white-space: nowrap;
+  padding: 0.1em 0.2em 0.1em 0.2em;
+  border-radius: 0.5em;
+  color:#000;
+}
+button:hover{
+  text-decoration: none;
+  box-shadow: #000 0 0 0 0.1em;
+  color:#000;
+}
+button:active{
+  color: #fff;
+  background-color:#000;
+}
+/*END Button*/
+
+
+body {
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEAQMAAACTPww9AAAABGdBTUEAALGPC/xhBQAAAAZQTFRFAAAA////pdmf3QAAAA5JREFUeF5jOACEBgwGAAnIAeGomjuiAAAAAElFTkSuQmCC);
+}
+#sidebar {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:99.2%;
+  overflow-x:hidden;
+  background-color:#fff;
+  border-bottom: solid #000 1px;
+}
+#sidebar * {
+  color: #000 !important;
+  font-size:1.5rem;
+  background-color:clear !important;
+  display:inline !important;
+}
+#sidebar a:hover, #sidebar #snapback:hover,  #sidebar #restart:hover {
+  text-decoration:underline !important;
+}
+#sidebar a:active, #sidebar #snapback:active,  #sidebar #restart:active  {
+  color:#fff !important;
+  font-size:1.5rem;
+  background-color:#000 !important;
+  display:inline !important;
+}
+#sidebar li, #sidebar li > span {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#sidebar a, #sidebar a:hover {
+  border: 0 !important;
+  box-shadow: none;
+}
+.menu {
+  background-color:#fff;
+  color:#000;
+  opacity:1;
+  font-size: 1.5rem;
+  border: solid #000 1px;
+  box-shadow: #000 0.1em 0.1em 0;
+}
+.menu div:hover {
+  background-color:#000;
+  color:#fff;
+}
+#credits, #share, #titleSeparator, #sidebar li br {
+  display:none !important;
+}
