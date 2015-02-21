@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Bureaucracy 101</title>
+  <title>System6 CSS tests</title>
   <meta name="system6" content="">
   <meta name="Yitch" content="">
 
@@ -19,34 +18,53 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="system6.css">
-
-
+  <link rel="stylesheet" href="bootstrap.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
 
-  <!-- Top Menu Layout –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<ul id="sidebar">
-<li id="title">
-    <span id="MainTitle">Corporation</span>
-    <span id="Bureaucrats"><a href="https://www.google.com" class="externalLink" target="_blank">Comics</a></span></li>
-    <span id="Bureaucrats"><a href="https://www.kickstarter.com/projects/abhinay/corporate-bureaucrats?ref=nav_search" class="externalLink" target="_blank">Kickstarter</a></span></li>
-</ul>
-  <!-- END Top Menu Layout –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+  <body>
+    <div class="sidebar">                               
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="file" data-toggle="dropdown">File
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="FileMenu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Comics</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.kickstarter.com/projects/abhinay/corporate-bureaucrats?ref=nav_search" class="externalLink" target="_blank">Kickstarter</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Get out!/a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sidebar">                               
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="file" data-toggle="dropdown">Goto
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="FileMenu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Comics</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.kickstarter.com/projects/abhinay/corporate-bureaucrats?ref=nav_search" class="externalLink" target="_blank">Kickstarter</a></li>
+        </ul>
+      </div>
+    </div>
 
   <!-- Message Box Layout –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
   <div class="passage">
         <h3>Approval Required</h3>
         <p>List down all justifications in as convoluted a manner as possible:</p>
           <textarea rows = "7" columns = "50"></textarea>
         <p><a id="Submit" href="https://www.google.com" class="internalLink"> Sign my life away!</a></p>
   </div>
+
+
   <!-- END Message Box Layout –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!-- End Document –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
